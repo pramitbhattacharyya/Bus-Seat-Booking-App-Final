@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_activity"
+    tools:context=".MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="312dp"
+        android:textColor="#00FFFF"
+        android:ems="10"
+        android:textColorHint="#f16866"
+        android:hint="2021"
+        android:inputType="numberDecimal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/dept"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="204dp"
+        android:textColor="#81262c"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/cse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CSE"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="#ff3e82"
+            tools:layout_editor_absoluteX="284dp"
+            tools:layout_editor_absoluteY="230dp" />
+
+        <RadioButton
+            android:id="@+id/ee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EE"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="#ff3e82"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="232dp" />
+
+        <RadioButton
+            android:id="@+id/me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ME"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="#ff3e82"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="280dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Dept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="212dp"
+        android:text="Department"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#81262c"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="448dp"
+        android:text="Password"
+        android:textColor="#05D6F4"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="68dp"
+        android:text="I.D.No."
+        android:textColor="#81262c"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="380dp"
+        android:text="Email ID"
+        android:textColor="#05D6F4"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:text="PassoutYear"
+        android:textColor="#05D6F4"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="112dp"
+        android:text="Course"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#81262c"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="12dp"
+        android:text="Name"
+        android:textColor="#81262c"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="155dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="496dp"
+        android:background="@drawable/button"
+        android:text="LOGIN/SIGN UP"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:ems="10"
+        android:textColorHint="#AFF6E7"
+        android:hint="Pramit Bhattacharyya"
+        android:textColor="#f16866"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:textColor="#f16866"
+        android:hint="11740660"
+        android:textColorHint="#AFF6E7"
+        android:inputType="numberDecimal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#81262c"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/btech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BTECH"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="#ff3e82"
+            tools:layout_editor_absoluteX="284dp"
+            tools:layout_editor_absoluteY="230dp" />
+
+        <RadioButton
+            android:id="@+id/mtech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MTECH"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="#ff3e82"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="232dp" />
+
+        <RadioButton
+            android:id="@+id/phd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHD"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="#ff3e82"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="280dp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="372dp"
+        android:ems="10"
+        android:hint="pramitb@iitbhilai.ac.in"
+        android:inputType="textEmailAddress"
+        android:textColor="#00FFFF"
+        android:textColorHint="#f16866"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="440dp"
+        android:textColor="#00FFFF"
+        android:ems="10"
+        android:hint="P@ssw0rd"
+        android:textColorHint="#f16866"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
