@@ -1,3 +1,2 @@
 # BusBookingAppComplete
-This is the bus booking app
-THE COMPLETE ONE.
+This is the bus seating booking app with self-deployed pseudo server and a great user authentication system with the use of server generated OTP and sending it using email. The server was developed purely using java program. Forgot password facility is available using which users can change their password by proving their genuineness by typing the OTP sent to their email by the server.
